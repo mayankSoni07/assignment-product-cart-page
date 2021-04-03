@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.productPageWrapper {
+  flex: 0.5;
+}
+.cartPageWrapper {
+  flex: 0.5;
+}
+.error_message {
+  background: #ffcccb;
+  color: red;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  border: 1px solid red;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.success_message {
+  background: lightgreen;
+  color: green;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  border: 1px solid green;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 18px;
+}
